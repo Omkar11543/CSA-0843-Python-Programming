@@ -1,0 +1,17 @@
+A=input("enter the first value")
+B=input("enter the second value")
+C=input("enter the third value")
+if(A>B):
+    if(A>C):
+         print("greatest",A)
+    else:
+         print("greatest",C)
+elif(B>C):
+    print("greatest",B)
+else:
+    print("greatest",C)
+SAMPLE INPUT AND OUTPUT:-
+enter the first value 2
+enter the second value 3
+enter the third value 5
+greatest  5
