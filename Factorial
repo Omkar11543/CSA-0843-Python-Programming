@@ -1,0 +1,15 @@
+n=int(input("enter the value of n"))
+fact=1
+if(n==0):
+    print("the factorial is 1")
+else:
+    for i in range(1,n+1):
+          fact=fact*i
+          print("the factorial value is ",fact)
+SAMPLE INPUT AND OUTPUT:-
+enter the value of n 5
+the factorial value is  1
+the factorial value is  2
+the factorial value is  6
+the factorial value is  24
+the factorial value is  120
