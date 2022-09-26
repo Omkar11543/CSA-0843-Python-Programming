@@ -1,0 +1,10 @@
+D=float(input("enter the no of Days"))
+if(D<0):
+    print("value error")
+else:  
+    year=int(D/365)
+    week=int((D%365)/7)
+    days=int((D%365)%7)
+    print("total years",year)
+    print("total weeks",week)
+    print("total days",days)
