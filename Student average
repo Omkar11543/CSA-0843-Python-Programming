@@ -1,0 +1,13 @@
+M=int(input("enter the marks in maths"))
+P=int(input("enter the marks in physics"))
+B=int(input("enter the marks in biology"))
+total=M+B+P
+average=total/3
+print("avearge=",average)
+
+if(average>=75):
+   print("grade:A")
+elif(average>=65):
+   print("grade:B")
+elif(average<50):
+   print("grade:fail")    
