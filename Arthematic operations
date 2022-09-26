@@ -1,0 +1,15 @@
+a=int(input("enter the first number"))
+b=int(input("enter the second number"))
+choice=int(input("enter the choice"))
+if(choice==1):
+   c=a+b
+   print("Addition:",c)
+elif(choice==2):
+      c=a-b
+      print("Subraction:",c)
+elif(choice==3):
+         c=a*b
+         print("multiplication:",c)
+elif(choice==4):
+            c=a%b
+            print("division:",c)
