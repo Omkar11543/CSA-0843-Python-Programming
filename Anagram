@@ -1,0 +1,12 @@
+S1=input("enter the first string")
+S2=input("enter the second string")
+sorted(S1)
+sorted(S2)
+if(sorted(S1)==sorted(S2)):
+     print("the given string is Anagram")
+else:
+     print("the given string is not an Anagram")
+     SAMPLE INPUT AND OUTPUT:-
+     enter the first string omkar
+enter the second stringOMKAR
+the given string is not an Anagram
