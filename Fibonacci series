@@ -1,0 +1,17 @@
+A=int(input("enter the element"))
+b=0
+b1=0
+b2=1
+print("b1",b1)
+print("b2",b2)
+while(b<=A):
+    b3=b1+b2
+    b1=b2
+    b2=b3
+    b=b+1
+print("fibonacci series",b3)
+SMAPLE INPUT AND OUTPUT:-
+enter the element 5
+b1 0
+b2 1
+fibonacci series 13
